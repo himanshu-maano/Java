@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class invertedPattern {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class sumN {
     public static void main (String agrs[]) {

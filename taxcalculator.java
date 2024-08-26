@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class taxcal {
+public class taxcalculator {
     public static void main (String[] agrs) {
         Scanner sc = new Scanner(System.in);
         double income = sc.nextDouble();
