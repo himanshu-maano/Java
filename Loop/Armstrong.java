@@ -1,5 +1,5 @@
 import java.util.*;
-public class prac {
+public class Armstrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter num : ");
