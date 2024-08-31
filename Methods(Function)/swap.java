@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class swap {
+    
     public static void Swap(int a, int b) {
         // Swap
         int temp = a;
