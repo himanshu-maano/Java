@@ -1,16 +1,16 @@
 package Pattern;
 
 public class Butterfly_Pattern {
-    public static void butterfly (int n) {
+    public static void butterfly (int m) {
         // first half
-        for(int i=1; i<=n; i++) {
+        for(int i=1; i<=m; i++) {
             // stars - i
             for(int j=1; j<=i; j++) {
                 System.out.print("*");
             }
             
             // spaces - 2*(n-i)
-            for(int j=1; j<=(2*(n-i)); j++) {
+            for(int j=1; j<=(2*(m-i)); j++) {
                 System.out.print(" ");
             }
 
@@ -25,11 +25,11 @@ public class Butterfly_Pattern {
         // for mirror image 
         // reverse the outer loop
 
-        for(int i=n; i>=1; i--) {
+        for(int i=m; i>=1; i--) {
             for(int j=1; j<=i; j++) {
                 System.out.print("*");
             }
-            for(int j=1; j<=(2*(n-i)); j++) {
+            for(int j=1; j<=(2*(m-i)); j++) {
                 System.out.print(" ");
             }
             for(int j=1; j<=i; j++) {
