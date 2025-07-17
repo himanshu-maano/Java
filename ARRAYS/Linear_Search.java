@@ -1,6 +1,6 @@
 // import java.util.*;
 
-public class Largest_smallest {
+public class Linear_Search {
 
     public static void getLarge_Small(int numbers[]) {
         int largest = Integer.MIN_VALUE; // smallest possible num

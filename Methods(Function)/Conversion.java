@@ -32,8 +32,8 @@ public class Conversion {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter binary : ");
         int n = sc.nextInt();
-        // binToDec(n);
-        decToBin(n);
+        binToDec(n);
+        // decToBin(n);
         sc.close();
     }
 }
